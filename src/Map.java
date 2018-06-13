@@ -5,4 +5,9 @@ public class Map {
     public static void main(String[] args) {
         System.out.print("我好想你啊!");
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
